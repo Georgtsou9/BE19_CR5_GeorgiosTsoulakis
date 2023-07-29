@@ -1,0 +1,74 @@
+.mygrid{
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: fit-content;
+}
+
+.mycont{
+   background-color: rgb(88, 88, 88);
+   width: 80%;
+   margin: auto;
+   margin-top: 3rem;
+   margin-bottom: 3rem;
+   padding: 4rem;
+   border-radius: 2rem;
+
+}
+
+.myflex{
+    display: flex;
+    gap: 3rem;
+}
+
+.myflex1{
+    padding: 1rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.adoptconfirm{
+    background-color: rgb(88, 88, 88);
+    width: 30%;
+    margin: auto;
+    margin-top: 3rem;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+}
+
+
+.details{
+
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    border: 1px solid black;
+
+}
+
+
+
+
+
+
+/* Responsiveness */
+@media only screen and (max-width: 1400px) {
+    .mygrid {
+      grid-template-columns: repeat(2,1fr);
+    }
+  }
+
+
+  @media only screen and (max-width: 1000px) {
+    .mygrid {
+      grid-template-columns: repeat(1,1fr);
+    }
+  }
